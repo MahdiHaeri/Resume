@@ -79,6 +79,27 @@ body {
     align-items: center;
 }
 
+.icons_link {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;;  
+}
+
+i {
+    margin: 5px;
+    padding: 5px;
+    /* transition: .2s; */
+    color: tomato;
+}
+
+i:hover {
+    color: black;
+}
+
 .skill_container {
     width: 100%;
     height: auto;
