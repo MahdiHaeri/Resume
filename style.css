@@ -71,7 +71,7 @@ body {
     /* border: 5px black solid; */
     transition: 1s;
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .image {
