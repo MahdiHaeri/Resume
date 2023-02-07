@@ -6,17 +6,30 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: lightgreen;
+    background-image: url("./background.jpg");
+    /* background-image: linear-gradient(to right, tomato, lightgreen); */
+    /* background-color: white; */
     width: 100vw;
     height: auto;
     padding: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.main_container {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* background-color: black; */
 }
 
 .container {
-    width: 65%;
+    width: 30%;
     height: auto;
     max-width: 1300px;
     padding: 10px;
@@ -24,22 +37,22 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: tomato;
+    /* background-color: tomato; */
     border-radius: 10px;
-    box-shadow: 0 0 10px 0px black;
 }
 
-.profile_box {
+.section {
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex;
     align-items: center;
-    background-color: white;
+    /* background-color: white; */
+    background-image: url("./white_background.jpg");
 }
 
 .image_container {
@@ -69,9 +82,14 @@ body {
     background-color: #cccccc;
 }
 
+.left_container {
+    /* box-shadow: 0 0 10px  0px black; */
+    /* margin: 2px; */
+}
+
 .profile_info {
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -93,29 +111,32 @@ i {
     margin: 5px;
     padding: 5px;
     /* transition: .2s; */
-    color: tomato;
-}
-
-i:hover {
     color: black;
 }
 
+i:hover {
+    color: tomato;
+}
+
 .skill_container {
-    width: 100%;
-    height: auto;
-    background-color: white;
+    width: 70%;
+    height: 100%;
+    /* margin: 2px; */
+    /* background-color: tomato; */
     padding: 5px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    /* box-shadow: 0 0 10px 0px black; */
 }
 
 .skill_box {
     width: 100%;
     height: auto;
-    background-color: tomato;
+    background-color: white;
+    border: 1px solid black;
     padding: 10px;
     margin: 2px;
     display: flex;
@@ -126,9 +147,9 @@ i:hover {
 }
 
 .skill_box:hover {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     transition: 1s;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 @keyframes slideInFromLeft {
@@ -145,7 +166,8 @@ i:hover {
     /* width: 50%; */
     padding: 10px;
     margin: 2px;
-    background-color: white;
+    background-color: lightgreen;
+    border-bottom: 2px solid black;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -168,7 +190,7 @@ i:hover {
 }
 
 .javascript {
-    width: 0%;
+    width: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,4 +215,16 @@ i:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.info_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.interested_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
