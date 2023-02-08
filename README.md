@@ -1,2 +1,2 @@
 # Resume
-Make a simple Resume with html & css as AP workshop homework 
+Make a simple Resume with Html & Css as AP laboratory homework 
