@@ -196,7 +196,7 @@ i:hover {
 }
 
 .python {
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,7 +217,14 @@ i:hover {
 }
 
 .bash {
-    width: 25%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.git {
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
